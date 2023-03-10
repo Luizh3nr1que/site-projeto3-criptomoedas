@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+:root {
+    ---font01: 'Playfair Display', serif;
+    ---fontp: 'Lora', serif
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+main h1 {
+    text-decoration: underline;
+    font-family: var(---font01);
+    font-size: 42px;
+    margin-bottom: 3%;
+}
+
+main p {
+    line-height: 28px;
+    text-indent: 15px;
+    text-align: justify;
+
+    font-family: var(---fontp);
+    font-size: 20px;
+}
+
+.img01 img {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.643);
+    width: 700px;
+}
+
+.img02 img {
+    width: 500px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #7083d1;
+    margin-top: 172.9px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(38, 38, 38);
+}

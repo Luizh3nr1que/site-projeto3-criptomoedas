@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 1113px) {
+    .texto {
+        color: white;
+        margin-top: 12%;
+        margin-left: 5%;
+    }
+
+    .img {
+        margin-left: -13%;
+        width: 500px;
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (max-width: 881px) {
+    .texto h1 {
+        font-size: 65px;
+        letter-spacing: 1px;
+
+    }
+
+    .texto p {
+
+        font-size: 18px;
+    }
+
+    .img {
+        margin-left: -13%;
+        width: 500px;
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (max-width: 633px) {
+    .texto h1 {
+        font-size: 45px;
+        letter-spacing: 0px;
+
+    }
+
+    .texto p {
+
+        font-size: 13px;
+    }
+
+    .img {
+        margin-left: -13%;
+        width: 300px;
+        margin-top: 10%;
+    }
+
+    footer {
+        background-color: #7083d1;
+        margin-top: 520px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(38, 38, 38);
+    }
+
+}
+
+@media screen and (max-width: 418px) {
+    .conteudo {
+        display: inline;
+    }
+
+    .img {
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+
+    .nav-list a {
+        color: rgb(184, 184, 184);
+        padding: 5px;
+        text-decoration: none;
+    }
+
+
+
+
+
+    footer {
+        background-color: #7083d1;
+        margin-top: 520px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(38, 38, 38);
+    }
+
+}
+
+@media screen and (max-width: 443px) {
+    .conteudo {
+        display: inline;
+    }
+
+    .img {
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+
+    .nav-list a {
+        color: rgb(184, 184, 184);
+        padding: 5px;
+        text-decoration: none;
+    }
+
+
+
+
+
+    footer {
+        background-color: #7083d1;
+        margin-top: 520px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(38, 38, 38);
+    }
+
+}
+
+@media screen and (max-width: 492px) {
+    .conteudo {
+        display: inline;
+    }
+
+    .img {
+        margin-left: 12%;
+        margin-top: 10%;
+    }
+
+    .nav-list a {
+        color: rgb(184, 184, 184);
+        padding: 5px;
+        text-decoration: none;
+    }
+
+
+
+
+
+    footer {
+        background-color: #7083d1;
+        margin-top: 520px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(38, 38, 38);
+    }
+
+}
+
+@media screen and (max-width: 284px) {
+
+    .nav-list a {
+        color: rgb(184, 184, 184);
+        padding: 1px;
+        text-decoration: none;
+    }
+}
